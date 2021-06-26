@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PlantMonitor</string>
+    <string name="plant1">medronho1</string>
+    <string name="plant2">medronho2</string>
+    <string name="plant3">medronho3</string>
+    <string name="waterpumpswitch">Water Pump</string>
+</resources>

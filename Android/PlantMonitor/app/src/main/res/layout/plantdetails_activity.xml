@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PlantDetailsActivity">
+
+
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <Switch
+        android:id="@+id/waterpumpswitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center"
+        android:text="@string/waterpumpswitch" />
+
+    <Switch
+        android:id="@+id/aumaticwateringswitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/waterpumpswitch"
+        android:layout_gravity="center|right"
+        android:layout_marginTop="50dp"
+        android:text="Automatic Watering" />
+
+    <TextView
+        android:id="@+id/waterlevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="water level : 30%"
+        android:layout_gravity="center|left"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/moisture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="soil moisture level : 30%"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center|left"
+        />
+
+</FrameLayout>
